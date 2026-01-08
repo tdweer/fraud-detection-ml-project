@@ -1,9 +1,6 @@
 """
 Task 5: Compare models on the same test set and generate combined ROC/PR plots.
 
-Assumes:
-- outputs/model_logreg.joblib exists
-- outputs/model_xgboost.joblib exists
 """
 
 import os

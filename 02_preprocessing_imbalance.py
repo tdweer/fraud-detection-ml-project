@@ -1,17 +1,6 @@
 """
 Task 3: Data pre-processing + imbalance handling experiments.
 
-This file demonstrates and compares:
-- cost-sensitive learning (class_weight)
-- SMOTE oversampling
-- random undersampling
-
-Metric: Average Precision (PR-AUC) using 3-fold stratified CV on a subset:
-(all fraud + 8,000 legitimate).
-
-Outputs:
-- task3_imbalance_strategy_comparison.csv
-- task3_imbalance_strategy_notes.txt
 """
 
 import os

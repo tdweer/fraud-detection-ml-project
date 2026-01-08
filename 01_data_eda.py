@@ -1,14 +1,6 @@
 """
 Task 2: Exploratory Data Analysis (EDA)
 
-Generates:
-- class distribution bar chart
-- histograms for Time and log1p(Amount)
-- boxplot for Amount by Class
-- correlation heatmap (sampled for speed)
-- text summary file
-
-Outputs are saved to ../outputs/
 """
 
 import os

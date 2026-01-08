@@ -1,11 +1,6 @@
 """
 Task 4-5: Logistic Regression model selection, training, and evaluation.
 
-- Hyperparameter tuning (C, penalty) using 3-fold stratified CV on a tuning subset.
-- Final training uses class_weight='balanced' (cost-sensitive learning).
-- Outputs include confusion matrix, ROC curve, PR curve, and coefficient importance.
-
-Note: this dataset is numeric (V1..V28, Time, Amount) so we standardise features and do not encode categories.
 """
 
 import os

@@ -1,6 +1,3 @@
-"""
-Run the whole pipeline (Tasks 2-5) end-to-end.
-"""
 
 import subprocess
 import sys

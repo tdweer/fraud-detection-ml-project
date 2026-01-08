@@ -1,13 +1,6 @@
 """
 Task 4-5: XGBoost model selection, training, and evaluation.
 
-- Hyperparameter tuning using 2-fold stratified CV on a tuning subset.
-- Imbalance handling via scale_pos_weight.
-
-Outputs:
-- task4_xgb_cv_results.csv
-- model_xgboost.joblib
-- confusion matrix, ROC/PR comparisons (if LR exists), feature importance
 """
 
 import os
